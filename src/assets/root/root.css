@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700;800;900&family=Inter:wght@300;400;600;700;900&family=Lora:wght@400;500;600;700&display=swap");
+:root {
+  --black: #050505;
+  --black-1f: #1f1f1f;
+  --black-2d: #2d2d2d;
+  --black-3a: #3a3a3a;
+  --gray-bold: #757575;
+  --gray: #e9e9e9;
+  --gray-light: #f4f4f4;
+  --white: #fff;
+  --purple: #a445ed;
+  --red: #ff5252;
+  --heading-l: 64px;
+  --heading-llh: 77px;
+  --heading-m: 24px;
+  --heading-mlh: 29px;
+  --heading-s: 20px;
+  --heading-slh: 24px;
+  --body-m: 18px;
+  --body-mlh: 24px;
+  --body-s: 14px;
+  --body-slh: 17px;
+  --transition: all 0.3s ease-in-out;
+  --radius: 16px;
+  --shadow: 0 5px 30px 0px #00000010;
+}
+
+
+[data-theme=dark] {
+  --black: #fff;
+  --black-1f: #1f1f1f;
+  --black-2d: #fff;
+  --gray-light: #f4f4f4;
+  --white: #050505;
+  --shadow: 0 5px 30px 0px #ffffff10;
+}
+
+
+

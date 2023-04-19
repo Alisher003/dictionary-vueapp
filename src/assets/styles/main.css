@@ -1,0 +1,17 @@
+@import "../root/root.css";
+@import "../reset/reset.css";
+@import "../forms/forms.css";
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+  transition: background-color .2s ease,
+}
+
+.container {
+  max-width: 737px;
+  margin: auto;
+}
